@@ -3,7 +3,7 @@ package com.example;
 public class NameHelper {
 	
 	public static void main(String[] args) {
-		System.out.println(toCamelCase("RAVI SANKARMR"));
+		System.out.println(toCamelCase("R'AVI SANKARMR"));
 	}
 	
 	public static String toCamelCase(String name) {
@@ -14,6 +14,10 @@ public class NameHelper {
 				camelCase.append(c);
 				nextCharCapital = true;
 			}	
+			else if(c == '\'' || c == '-') {
+				camelCase.append(c);
+				nextCharCapital = true;
+			}
 			else if(nextCharCapital) {
 				camelCase.append(Character.toUpperCase(c));
 				nextCharCapital = false;
