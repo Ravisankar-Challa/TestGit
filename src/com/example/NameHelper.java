@@ -26,6 +26,10 @@ public class NameHelper {
 				camelCase.append(Character.toLowerCase(c));
 			}
 		}
+		String camelCaseString = camelCase.toString();
+		if(camelCaseString.toLowerCase().endsWith("mr")) {
+			return camelCaseString.substring(0, camelCaseString.length()-2);
+		}
 		return camelCase.toString();
 	}
 
