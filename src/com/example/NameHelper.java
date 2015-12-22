@@ -35,18 +35,9 @@ public class NameHelper {
 		System.out.println("Ravi3");
 		System.out.println("Ravi4");
 		System.out.println("Ravi5");
-<<<<<<< Upstream, based on origin/master
-<<<<<<< Upstream, based on origin/master
 		System.out.println("Ravi6");
 		System.out.println("Version 1");
 		System.out.println("Version 2");
-=======
-		System.out.println("Ravi6");
->>>>>>> e5383a9 Ravi1 Ravi2 Ravi3 Ravi4 Ravi5 Ravi 6
-=======
-		System.out.println("Ravi6");
-		System.out.println("Version 1");
->>>>>>> 009fced Version 1
 		return camelCase.toString();
 	}
 
