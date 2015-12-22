@@ -31,6 +31,7 @@ public class NameHelper {
 			return camelCaseString.substring(0, camelCaseString.length()-2);
 		}
 		System.out.println("Ravi1");
+		System.out.println("Ravi2");
 		return camelCase.toString();
 	}
 
