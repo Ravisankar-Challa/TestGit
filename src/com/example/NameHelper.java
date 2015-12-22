@@ -30,6 +30,7 @@ public class NameHelper {
 		if(camelCaseString.toLowerCase().endsWith("mr")) {
 			return camelCaseString.substring(0, camelCaseString.length()-2);
 		}
+		System.out.println("Ravi1");
 		return camelCase.toString();
 	}
 
