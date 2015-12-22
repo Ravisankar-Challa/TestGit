@@ -37,6 +37,7 @@ public class NameHelper {
 		System.out.println("Ravi5");
 		System.out.println("Ravi6");
 		System.out.println("Version 1");
+		System.out.println("Version 2");
 		return camelCase.toString();
 	}
 
