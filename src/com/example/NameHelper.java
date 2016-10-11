@@ -7,6 +7,7 @@ public class NameHelper {
 	}
 	
 	public static String toCamelCase(String name) {
+		System.out.println("on1");
 		StringBuilder camelCase = new StringBuilder();
 		boolean nextCharCapital = true;
 		for(char c : name.toCharArray()) {
